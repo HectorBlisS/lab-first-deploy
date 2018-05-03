@@ -14,7 +14,7 @@ const siteController     = require("./routes/siteController");
 const locationController = require("./routes/locationController");
 
 // Mongoose configuration
-mongoose.connect("mongodb://localhost/deploy-exercise");
+mongoose.connect("mongodb://bliss:bliss@ds113870.mlab.com:13870/iron-bitch");
 
 // Middlewares configuration
 app.use(logger("dev"));
